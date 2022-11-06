@@ -1,28 +1,32 @@
 {
-  "name": "altschool-exam",
+  "name": "blog_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an api for a blog\r # Requirements\r 1. User should be able to signup\r 2. User should be able to login with Passport using JWT\r 3. User(s) should be able to get articles\r 4. User should be able to create articles\r 5. User should be able to update and delete articles\r 6. Test application\r #",
   "main": "app.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayibatonye-ikemike/altschool-blog.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayibatonye-ikemike/altschool-blog/issues"
+  },
+  "homepage": "https://github.com/Ayibatonye-ikemike/altschool-blog#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jest": "^29.2.2",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.29.4",
-    "mongoose": "^6.7.0",
-    "mongose": "^0.0.2-security",
-    "node": "^19.0.0",
+    "mongoose": "^6.7.1",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
