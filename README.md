@@ -120,7 +120,7 @@ Sucesss
 
 # Create articles
 
-Route: /orders
+Route: /article
 Method: POST
 Header
 Authorization: Bearer {token}
