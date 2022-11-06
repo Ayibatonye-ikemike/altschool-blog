@@ -92,7 +92,7 @@ sucessss
 
 ```
 
-# LOgin User
+# Login User
 
 Route: /login
 Method: POST
@@ -154,9 +154,7 @@ Success
             "_id": "636825b494ad88d3e9180d07"
         }
     }
-}        
-
-````
+} ````
 
 # get aerticle
 
@@ -221,15 +219,22 @@ Query params: {(_id: id)}
 
 ## Response
 
+
+
 sucesss
 
-```` {
+````
+{
     "status" : "successful"
-}  ````
+} ````
+
+
 
 
 
 
 # contributor
+
+
 
 ## Ayibatonye Ikemike
