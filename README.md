@@ -219,14 +219,11 @@ Query params: {(_id: id)}
 
 ## Response
 
-
-
 sucesss
 
-````
-{
-    "status" : "successful"
-} ````
+
+
+```{ "status" : "successful"} ```
 
 
 
