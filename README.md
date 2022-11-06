@@ -50,7 +50,7 @@ article      objectId        ref
 
 ## article
 
-## field	## data_type	## constraints
+## field	   data_type	    constraints
 title          string    	  required
 desc           string
 author         string         required
