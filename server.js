@@ -1,6 +1,6 @@
-const database = require("./database/index")
-require('dotenv').config();
+const database = require("./database/index");
 const app = require("./app")
+require('dotenv').config();
 
 
 const PORT = process.env.PORT

@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const ArticleRouter = require('./routes/articlesRoutes');
 const authRouter = require('./routes/authRoutes');
 const express = require("express");
-
+require("dotenv").config();
 const app = express()
 
 //middleware
