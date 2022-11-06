@@ -1,4 +1,4 @@
-# altschool-Blog
+
 
 # blog_api
 This is an api for a blog
@@ -36,12 +36,16 @@ https://vast-sarong-dove.cyclic.app
 
 ## user
 
-## field	## data_type	## constraints
+## field	   data_type	     constraints
 
 email	     string	         required, unique
+
 firstname    string	         required
+
 lastname     string	         required
+
 password	 string	         required
+
 article      objectId        ref
 
 ## article
